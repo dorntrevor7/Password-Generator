@@ -2,7 +2,7 @@
 //Call the button on the HTML page
 var generateBtn = document.querySelector("#generate");
 
-//Function runs when the button is clicked 
+//Function runs when the button is clicked
 function writePassword() {
     var params = {
         Length: prompt("How long would you like your password to be?"),
